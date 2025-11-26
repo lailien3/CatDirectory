@@ -1,0 +1,54 @@
+header {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 24px;
+}
+.catList {
+  border-color: white;
+}
+.birthdayList {
+  background-color: white;
+}
+p {
+  color: rgb(125, 255, 125);
+}
+li {
+  color: rgb(255, 248, 145);
+  font-style: italic;
+}
+footer {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+body {
+  background-color: rgb(103, 182, 213);
+}
+#gradient {
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+#dateButton {
+  background-color: salmon !important;
+  color: white;
+}
+
+/* responsivity */
+@media screen and (max-width: 700px) {
+  body {
+    background-color: rgb(255, 201, 201);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: rgb(129, 226, 131);
+  }
+}

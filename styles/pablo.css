@@ -1,0 +1,118 @@
+* {
+  font-family: "Chango", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  color: rgb(103, 182, 213);
+  font-weight: bold;
+  font-size: 50px;
+  background-color: white;
+  text-align: center;
+  height: 250px;
+}
+
+.pabloImage {
+  width: 150px;
+  display: block;
+  margin: 25px auto 25px auto;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.pabloPic {
+  width: 125px;
+  display: inline-block;
+  margin: auto 10px auto 10px;
+}
+
+.aboutBox {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+
+.aboutItem {
+  width: 150px;
+  height: 150px;
+  background-color: thistle;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.ageButton {
+  margin-top: 15px;
+  border-radius: 15%;
+  background-color: salmon;
+}
+
+.scrollHorizontal {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.shopItem {
+  width: 125px;
+  display: inline-block;
+  margin: auto 10px auto 10px;
+  background-color: darkseagreen;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  border-radius: 10%;
+}
+
+footer {
+  color: rgb(103, 182, 213);
+  font-weight: bold;
+  font-size: 24px;
+  background-color: white;
+}
+
+body {
+  background-color: rgb(103, 182, 213);
+}
+
+.headings {
+  text-align: center;
+}
+
+.socialMediaBox {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.socialMediaHeading {
+  text-align: center;
+}
+
+/* responsivity */
+@media screen and (max-width: 700px) {
+  header {
+    color: rgb(255, 201, 201);
+  }
+  footer {
+    color: rgb(255, 201, 201);
+  }
+  body {
+    background-color: rgb(255, 201, 201);
+  }
+}
+@media screen and (min-width: 1000px) {
+  header {
+    color: rgb(129, 226, 131);
+  }
+  footer {
+    color: rgb(129, 226, 131);
+  }
+  body {
+    background-color: rgb(129, 226, 131);
+  }
+}
